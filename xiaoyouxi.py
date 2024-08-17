@@ -1,3 +1,10 @@
+"""
+饿了么小游戏
+
+cron: 8 4,9,11,14,17,21 * * *	
+const $ = new Env("饿了么小游戏");
+"""
+
 import os
 import time
 import json
