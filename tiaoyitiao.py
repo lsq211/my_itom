@@ -1,3 +1,10 @@
+"""
+饿了么跳一跳
+
+cron: 8 7,11,15,19,21 * * *	
+const $ = new Env("饿了么跳一跳");
+"""
+
 import json
 import os
 import random
