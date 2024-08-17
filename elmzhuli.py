@@ -1,3 +1,17 @@
+"""
+饿了么乐园币助力
+支持多用户运行
+
+多用户用&或者@隔开
+例如账号1：10086 账号2： 1008611
+则变量为10086&1008611
+export nczlck=""
+
+cron: 0 0,7 * * *
+const $ = new Env("饿了么乐园币助力");
+"""
+
+
 import json
 import os
 import requests
