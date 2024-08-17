@@ -1,5 +1,5 @@
 """
-饿了么乐园币助力
+饿了么乐园币助力2
 支持多用户运行
 
 多用户用&或者@隔开
@@ -8,7 +8,7 @@
 export nczlck2=""
 
 cron: 0 0,7 * * *
-const $ = new Env("饿了么乐园币助力");
+const $ = new Env("饿了么乐园币助力2");
 """
 import json
 import os
