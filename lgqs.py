@@ -163,7 +163,7 @@ class TYT:
 
         try:
             r = requests.post(
-                "http://192.168.1.124:1888/api/getXSign",
+                "http://150.158.10.200:1177/Xsign",
                 json=body
             )
             r.raise_for_status()
