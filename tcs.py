@@ -2,7 +2,7 @@
 饿了么贪吃蛇
 
 cron: 38 4,9,11,14,17,21 * * *	
-const $ = new Env("饿了么小游戏");
+const $ = new Env("饿了么贪吃蛇");
 """
 
 import os
