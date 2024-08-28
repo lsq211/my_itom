@@ -1,5 +1,9 @@
-# -*- coding: utf-8 -*-
+"""
+饿了么 玩卡皮巴拉
 
+cron: 38 2,11,16,21 * * *	
+const $ = new Env("饿了么小游戏");
+"""
 import hashlib
 import os
 import re
