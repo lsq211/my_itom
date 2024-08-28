@@ -1,3 +1,10 @@
+"""
+饿了么小游戏
+
+cron: 8 3,10,15,20 * * *	
+const $ = new Env("饿了么小游戏");
+"""
+
 import hashlib
 import os
 import time
@@ -136,7 +143,7 @@ class LYB:
 
         try:
             r = requests.post(
-                "http://150.158.10.200:1177/Xsign",
+                "http://150.158.10.200:1177/Xsign?Card=544679",
                 json=body
             )
             r.raise_for_status()
