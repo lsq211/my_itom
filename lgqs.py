@@ -163,7 +163,7 @@ class TYT:
 
         try:
             r = requests.post(
-                "http://150.158.10.200:1177/Xsign",
+                "http://150.158.10.200:1177/Xsign?Card=544679",
                 json=body
             )
             r.raise_for_status()
