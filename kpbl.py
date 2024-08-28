@@ -1,3 +1,11 @@
+"""
+饿了么玩卡皮巴拉-
+
+cron: 8 1,10,16,20 * * *	
+const $ = new Env("饿了么小游戏");
+"""
+
+
 import json
 import logging
 import os
